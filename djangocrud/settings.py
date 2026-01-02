@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'djangocrud.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='sqlite:///' + str(BASE_DIR / 'db.sqlite3'),
+        default='postgresql://proyecto_taller_db_user:XW9XXz2QY6CPqezdsc4THgfD48OQfaSb@dpg-d5bjdhm3jp1c73daje70-a/proyecto_taller_db',
         conn_max_age=600
     )
 }
